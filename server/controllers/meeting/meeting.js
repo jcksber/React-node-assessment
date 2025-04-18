@@ -94,8 +94,7 @@ const index = async (req, res) => {
                     }
                 }
             },
-            { $project: { users: 0, contact: 0, Lead: 0 } },//DON'T KNOW IF CORRECT
-            
+            { $project: { users: 0, contact: 0, Lead: 0 } },
         ]);
         res.send(result);
     } catch (err) {

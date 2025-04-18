@@ -1,8 +1,3 @@
-/*
-    _routes.js for 'meeting'
-    Created: April 16, 2025
- */
-
 const express = require('express');
 const auth = require('../../middelwares/auth');
 
